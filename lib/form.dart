@@ -23,6 +23,12 @@ class _FormpageState extends State<Formpage> {
                 return null;
               },
             ),
+            TextFormField(validator: (value) {
+              if (value!.isEmpty || value == null) {
+                return 'enter vaild value';
+              }
+              return null;
+            }),
             Padding(padding: EdgeInsets.all(20)),
             ElevatedButton(
                 onPressed: () {
