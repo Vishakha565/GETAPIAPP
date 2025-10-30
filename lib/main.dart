@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getapiapp/form.dart';
 import 'package:getapiapp/homepage.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(),
-        body: HomePage(),
+        body: Formpage(),
       ),
     );
   }
